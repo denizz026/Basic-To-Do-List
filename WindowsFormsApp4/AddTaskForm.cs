@@ -103,6 +103,7 @@ namespace WindowsFormsApp4
 
         private void BtnSave_Click(object sender, EventArgs e)
         {
+
             if (string.IsNullOrWhiteSpace(txtTitle.Text))
             {
                 MessageBox.Show("Title is required!");
